@@ -4,8 +4,8 @@ function App() {
   
   const name = "abdul";
   return (
-    <div className="App">
-      <h1>Hello from react</h1>
+    <div className="container">
+      {/* <h1>Hello from react</h1> */}
       <Header />
       {/* <h2>hey {name}</h2> */}
     </div>

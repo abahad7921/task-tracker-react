@@ -2,9 +2,11 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>
-            <h1>hello from componenets hey!!!</h1>
-        </div>
+        <header className="header">
+            <h1>Task Tracker</h1>
+            <button className="btn">Add</button>
+            {/* <h2>heyyyyyy</h2> */}
+        </header>
     )
 }
 
